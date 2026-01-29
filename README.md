@@ -41,5 +41,3 @@ Database:
 
 ## 🎥 Demo Video
 Demo Video Link: https://drive.google.com/file/d/1_pEvytEKA4egY5M7ofVmEvBoDr_ZCSev/view?usp=drive_link
-npm install
-node index.js
