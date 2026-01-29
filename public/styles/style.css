@@ -1,0 +1,106 @@
+body {
+    background-position: bottom;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a5247;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.form-header h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+.form-header p {
+    color: black;
+    font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #006666;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0a5247;
+}
+
+.switch-form p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.switch-form a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch-form a:hover {
+    color: teal;
+}
+
+.errbox {
+    background-color: white;
+    max-width: 500px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    div .form-box {
+        width: 300px;
+        padding: 20px;
+    }
+
+    .form-header h2 {
+        font-size: 1.8rem;
+    }
+
+    input {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}

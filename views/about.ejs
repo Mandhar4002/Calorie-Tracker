@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" type="image/x-icon" href="/images/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/about.css">
+</head>
+
+<body>
+    <%- include("partials/nav") %>
+
+    <section class="first">
+        <div class="start">
+            <img src="./images/calorie-counter.jpg" alt="Calorie-counter photo" width="600px">
+            <div class="rbox">
+                <h2>About Us</h2>
+            
+                <p>Welcome to our website, your go-to resource for tracking and understanding your health and fitness journey. We’re here to help you take control of your well-being with ease, providing intuitive tools to monitor your daily caloric intake, calculate your Basal Metabolic Rate (BMR), and evaluate your Body Mass Index (BMI). Whether you’re aiming to lose weight, maintain a healthy lifestyle, or simply learn more about your body’s nutritional needs, we’ve got you covered.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="second">
+        <h2>Our Core Features</h2>
+        <ol>
+            <li>
+                <b>1. Home Page</b>
+                <p>The starting point of your health journey with us. Our Home page provides quick access to all the essential tools and features available on the website. From here, you can explore our calorie counter, BMR calculator, BMI tool, and discover helpful articles, tips, and resources to assist you in reaching your fitness goals.</p>
+            </li>
+            
+            <li>
+                <b>2. Calorie Counter</b>
+                <p>Keeping track of your calorie intake is vital for managing your health. Our Calorie Counter tool helps you log the foods and beverages you consume throughout the day. It gives you a clear picture of your caloric intake and lets you make informed choices about your diet, helping you stay on track toward your goals.</p>
+            </li>
+
+            <li>
+                <b>3. BMR (Basal Metabolic Rate) Calculator</b>
+                <p>Understanding your BMR is crucial for creating a personalized health plan. The BMR Calculator estimates the number of calories your body needs to perform basic functions, like breathing and digestion, while at rest. By knowing your BMR, you can determine how many calories you need to consume to maintain, lose, or gain weight.</p>
+            </li>
+
+            <li>
+                <b>4. BMI (Body Mass Index) Calculator</b>
+                <p>Your BMI is a simple yet effective tool to assess whether your weight is in a healthy range relative to your height. It helps you understand if you are underweight, overweight, or in a healthy weight range, offering insights into potential health risks and providing a baseline for your fitness goals.</p>
+            </li>
+        </ol>
+    </section>
+
+    <div class="whiteline"></div>
+
+    <section class="end">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><b>User-Friendly</b>: Our website is designed for ease of use, so you can quickly access the tools you need to monitor and improve your health.</li>
+            <li><b>Accurate Calculations</b>: Our calorie counter, BMR, and BMI calculators are based on trusted formulas to provide you with reliable data for your fitness journey.</li>
+            <li><b>Personalized Insights</b>: We offer useful recommendations based on your data, so you can make informed decisions about your diet and lifestyle.</li>
+            <li><b>Educational Resources</b>: Alongside our tools, we provide a wealth of articles and resources to educate you about nutrition, exercise, and overall wellness.</li>
+        </ul>
+
+        <p>We’re passionate about empowering individuals to lead healthier lives. We believe that small, consistent changes in your eating and exercise habits can have a big impact over time. Join us today and start your journey to better health!</p>
+
+
+
+    </section>
+
+    <script>
+        const curr = document.getElementById("fip");
+        curr.classList.add("active");
+        curr.removeAttribute("href");
+    </script>
+</body>
+
+</html>

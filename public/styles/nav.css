@@ -1,0 +1,31 @@
+.nav-link a:hover {
+    color: #0a5247;
+}
+
+.green {
+    color: #0a5247;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #0a5247;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #008080;
+}
+
+a.logout {
+    border: none;
+    transition-duration: 0.2s;
+}
+
+ul.nav a.logout:hover {
+    color: maroon;
+}
+
+.black {
+    background-color: black;
+    height: 0.5px;
+}
